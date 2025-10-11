@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Machine Learning Models
+*.pth
+*.pt
+*.h5
+*.pkl
+*.pickle
+*.joblib
+best_model.pth
+model_checkpoint.pth
+
+# Datasets (large files)
+student_resource/dataset/train.csv
+student_resource/dataset/test.csv
+student_resource/dataset/*.csv
+student_resource/dataset/images/
+student_resource/dataset/preprocessed/
+
+# Downloaded images
+student_resource/src/images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Training outputs
+training_history.png
+predictions_vs_actual.png
+submission.csv
+test_out.csv
+
+# EDA outputs (optional - uncomment if you don't want to track these)
+# student_resource/src/eda_images/
+# *.png
+
+# Documentation build
+docs/_build/
+
+# pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Weights and checkpoints
+checkpoints/
+*.ckpt
+
+# Tensorboard
+runs/
+tb_logs/
+
+# Large files marker
+*.large
