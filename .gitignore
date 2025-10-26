@@ -11,6 +11,10 @@ build/
 .eggs/
 *.pyc
 
+# Environment
+.env
+.env.local
+
 # Virtual Environment
 venv/
 env/
@@ -28,18 +32,20 @@ ENV/
 *.pkl
 *.pickle
 *.joblib
+models/*.pth
+models/*.pt
 best_model.pth
 model_checkpoint.pth
 
 # Datasets (large files)
-student_resource/dataset/train.csv
-student_resource/dataset/test.csv
-student_resource/dataset/*.csv
-student_resource/dataset/images/
-student_resource/dataset/preprocessed/
+data/train.csv
+data/test.csv
+data/*.csv
+data/images/
+data/preprocessed/
 
 # Downloaded images
-student_resource/src/images/
+images/
 *.jpg
 *.jpeg
 *.png
@@ -73,12 +79,15 @@ temp/
 # Training outputs
 training_history.png
 predictions_vs_actual.png
-submission.csv
+submission*.csv
 test_out.csv
+*.csv
+!data/sample_test.csv
 
-# EDA outputs (optional - uncomment if you don't want to track these)
-# student_resource/src/eda_images/
-# *.png
+# EDA outputs
+eda_images/
+plots/
+visualizations/
 
 # Documentation build
 docs/_build/
